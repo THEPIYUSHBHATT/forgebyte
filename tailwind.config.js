@@ -11,6 +11,9 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'sour-gummy': ['"Sour Gummy"', 'sans-serif'],
+      },  
     },
   },
   plugins: [],
