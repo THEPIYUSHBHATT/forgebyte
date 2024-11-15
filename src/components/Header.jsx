@@ -8,19 +8,19 @@ const Header = () => {
     <header className="flex justify-between items-center p-4 bg-black text-white">
       {/* Logo Section */}
       <div className="flex items-center space-x-2">
-        <div className="bg-orange-500 text-black font-bold px-2 py-1 rounded">X</div>
+        {/* <div className="bg-orange-500 text-black font-bold px-2 py-1 rounded">X</div> */}
         <span className="font-bold text-xl">FORGEBYTE</span>
       </div>
 
       {/* Desktop Navigation */}
-      <nav className="hidden lg:flex space-x-6 text-lg border-2 rounded-full px-4 py-4  bg-black">
-        <a href="#home" className="text-orange-500 px-5 py-3 hover:bg-[#262626] text-2xl font-semibold rounded-full">Home</a>
-        <a href="#about" className="text-orange-500 px-5 py-3 hover:bg-[#262626] rounded-full text-2xl font-semibold">About</a>
-        <a href="#services" className="text-orange-500 px-5 py-3 hover:bg-[#262626] rounded-full text-2xl font-semibold">Services</a>
-        <a href="#services" className="text-orange-500 px-5 py-3 hover:bg-[#262626] rounded-full text-2xl font-semibold">Projects</a>
-        <a href="#services" className="text-orange-500 px-5 py-3 hover:bg-[#262626] rounded-full text-2xl font-semibold">Reviews</a>
-        <a href="#services" className="text-orange-500 px-5 py-3 hover:bg-[#262626] rounded-full text-2xl font-semibold">Blog</a>
-        <a href="#services" className="text-orange-500 px-5 py-3 hover:bg-[#262626] rounded-full text-2xl font-semibold">Contact</a>
+      <nav className="hidden lg:flex space-x-6 text-lg border-2 rounded-full px-3 py-2  bg-black">
+        <a href="#home" className="text-white px-5 py-3 hover:bg-[#262626] text-2xl font-semibold rounded-full">Home</a>
+        <a href="#about" className="text-white px-5 py-3 hover:bg-[#262626] rounded-full text-2xl font-semibold">About</a>
+        <a href="#services" className="text-white px-5 py-3 hover:bg-[#262626] rounded-full text-2xl font-semibold">Services</a>
+        <a href="#services" className="text-white px-5 py-3 hover:bg-[#262626] rounded-full text-2xl font-semibold">Projects</a>
+        <a href="#services" className="text-white px-5 py-3 hover:bg-[#262626] rounded-full text-2xl font-semibold">Reviews</a>
+        <a href="#services" className="text-white px-5 py-3 hover:bg-[#262626] rounded-full text-2xl font-semibold">Blog</a>
+        <a href="#services" className="text-white px-5 py-3 hover:bg-[#262626] rounded-full text-2xl font-semibold">Contact</a>
         
       </nav>
 
