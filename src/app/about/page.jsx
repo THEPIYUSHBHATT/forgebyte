@@ -42,7 +42,7 @@ const page = () => {
             {/* Left Content */}
             <div className="md:w-2/3">
               <p className="text-gray-400 text-lg md:text-4xl leading-relaxed">
-                Let's get acquainted! We are not your average digital marketing agency – we are a team of passionate individuals who eat, sleep, and breathe <span className="text-orange-400">creativity</span>, <span className="text-orange-400">innovation</span>, and all things digital.
+                Lets get acquainted! We are not your average digital marketing agency – we are a team of passionate individuals who eat, sleep, and breathe <span className="text-orange-400">creativity</span>, <span className="text-orange-400">innovation</span>, and all things digital.
               </p>
               <p className="text-gray-400 leading-relaxed text-lg md:text-4xl mt-4">
                 At <span className="text-orange-400 font-bold">Celestial Solutions</span>, we are on a mission to make your online <span className="text-orange-400 font-bold">dreams come true</span>, one pixel at a time! We are a bunch of <span className="text-orange-400">tech-savvy wizards</span>, design enthusiasts, and <span className="text-orange-400">social media mavens</span> who believe that digital marketing should be fun, exciting, and downright awesome.
