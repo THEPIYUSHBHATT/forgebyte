@@ -3,8 +3,9 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      this is testimonial page
+      
       .
+      <h1 className='bg-red-500 p-32 text-4xl'>this is testimonial page</h1>
     </div>
   )
 }
