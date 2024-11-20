@@ -1,10 +1,18 @@
+"use client";
+
+import ServicesSection from '@/components/ServicesSection'
+import WhyChooseUs from '@/components/WhyChooseUs'
 import React from 'react'
 
-const page = () => {
+const page = ({ServicesTitle}) => {
   return (
-    <div>
-      sevices page is
-    </div>
+    <>
+      <div className='pt-20'>
+        <ServicesSection ServicesTitle={"Discover Our Services"} />
+
+        <WhyChooseUs />
+      </div>
+    </>
   )
 }
 

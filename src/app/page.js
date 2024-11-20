@@ -6,7 +6,7 @@ import ServicesSection from '../components/ServicesSection.jsx';
 export default function Home() {
   return (
     <>
-      <div className='bg-black'>
+      <div className='bg-[#0a0a0a]'>
         <section className="bg-black text-white flex flex-col items-center text-center p-16 h-screen space-y-4 mt-24">
           <h1 className="text-[60px] font-sour-gummy">
             The Best <span className="bg-[#f58327] text-black px-2">Digital </span>
@@ -41,7 +41,11 @@ export default function Home() {
 
         {/* what we are offering */}
         <section className='flex items-center justify-center'>
-          <ServicesSection />
+          <ServicesSection
+           ServicesTitle={"What we are offering"}
+           Services_btn={"View All Services"}
+           Services_logo={"SERVICES"}
+            />
 
         </section>
       </div>

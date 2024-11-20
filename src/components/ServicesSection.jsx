@@ -1,7 +1,7 @@
 import React from 'react';
 import { Search, FileText, ArrowRight } from 'lucide-react';
 
-const ServicesSection = () => {
+const ServicesSection = ({ServicesTitle , Services_btn , Services_logo}) => {
     const services = [
         {
             icon: <Search className="w-8 h-8 text-orange-500" />,
@@ -30,23 +30,23 @@ const ServicesSection = () => {
     ];
 
     return (
-        <div className="bg-black min-h-screen p-4 md:p-8 lg:p-12">
+        <div className="bg-[#0a0a0a] min-h-screen p-4 md:p-8 lg:p-12">
             {/* Header Section */}
             <div className=" mx-auto mb-8 md:mb-12">
                 <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 md:mb-12">
                     <div>
                         <span className="text-orange-500 uppercase text-sm font-semibold tracking-wider">
-                            SERVICES
+                            {Services_logo}
                         </span>
                         <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold mt-2">
-                            What we are offering
+                             {ServicesTitle}
                         </h2>
                     </div>
                     <a
-                        href="#"
+                        href="/services"
                         className="inline-flex items-center px-6 py-3 mt-4 md:mt-0 bg-orange-500 text-white rounded-full hover:bg-orange-600 transition duration-200 group"
                     >
-                        VIEW ALL SERVICES
+                        {Services_btn}
                         <ArrowRight className="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-200" />
                     </a>
                 </div>
