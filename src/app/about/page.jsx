@@ -1,5 +1,8 @@
+"use client";
 import React from 'react';
 import Image from 'next/image';
+import TeamSection from '@/components/TeamSection';
+import FAQ from '@/components/FAQ';
 
 const page = () => {
   return (
@@ -28,7 +31,7 @@ const page = () => {
         </div>
 
         {/* about the company */}
-        <section className="bg-black text-white px-6 md:px-16 py-20 md:py-40">
+        <section className="bg-[#0a0a0a] text-white px-6 md:px-16 py-20 md:py-40">
           {/* WHO WE ARE Section */}
           <div className="text-center mb-8 md:mb-12">
             <span className="text-orange-400 bg-orange-900/20 px-4 py-2 rounded-full uppercase text-xs md:text-sm font-bold tracking-widest">
@@ -106,6 +109,13 @@ const page = () => {
 
           </div>
         </section>
+
+
+        {/* team members info */}
+        <TeamSection />
+
+        {/* FAQ Section */}
+        <FAQ />
       </div>
     </>
   );

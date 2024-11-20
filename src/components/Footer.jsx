@@ -8,10 +8,10 @@ const handleSubmit = (e) => {
 
 const Footer = () => {
     return (
-        <footer className="bg-black text-gray-300 px-6 py-10 md:px-12">
+        <footer className="bg-[#0a0a0a] text-gray-300 px-6 py-10 md:px-12">
             {/* lets talk */}
 
-            <div className="h-3/4 bg-black p-4 md:p-8 flex flex-col justify-center">
+            <div className="h-3/4 bg-[#0a0a0a] p-4 md:p-8 flex flex-col justify-center">
                 <div className="max-w-4xl mx-auto w-full">
                     {/* Header Section */}
                     <div className="mb-8 md:mb-12">
